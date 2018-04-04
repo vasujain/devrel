@@ -1,0 +1,36 @@
+{
+  "name": "DevRel",
+  "version": "1.0.0",
+  "description": "The DevRel Bot.",
+  "main": "devrel.js",
+  "scripts": {
+    "start": "node devrel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vasujain/devrel.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "VJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasujain/devrel/issues"
+  },
+  "homepage": "https://github.com/vasujain/devrel#readme",
+  "engines": {
+    "node": "7.2.0"
+  },
+  "dependencies": {
+    "use-strict": "^1.0.1",
+    "botkit": "^0.6.12",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^1.4.39",
+    "beepboop-botkit": "^1.1.1",
+    "twitter": "^1.7.1",
+    "random-dilbert": "^1.1.0"
+  }
+}

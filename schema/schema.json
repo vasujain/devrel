@@ -1,0 +1,267 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+        "version": {
+            "$id": "/properties/version",
+            "type": "string",
+            "title": "The Version Schema ",
+            "default": "",
+            "examples": [
+                "1.0.0"
+            ]
+        },
+        "github": {
+            "$id": "/properties/github",
+            "type": "object",
+            "properties": {
+                "public": {
+                    "$id": "/properties/github/properties/public",
+                    "type": "object",
+                    "properties": {
+                        "api_type": {
+                            "$id": "/properties/github/properties/public/properties/api_type",
+                            "type": "string",
+                            "title": "The Api_type Schema ",
+                            "default": "",
+                            "examples": [
+                                "public"
+                            ]
+                        },
+                        "api_url": {
+                            "$id": "/properties/github/properties/public/properties/api_url",
+                            "type": "string",
+                            "title": "The Api_url Schema ",
+                            "default": "",
+                            "examples": [
+                                "https://api.github.com/"
+                            ]
+                        },
+                        "auth_token": {
+                            "$id": "/properties/github/properties/public/properties/auth_token",
+                            "type": "string",
+                            "title": "The Auth_token Schema ",
+                            "default": "",
+                            "examples": [
+                                "Y"
+                            ]
+                        },
+                        "labels": {
+                            "$id": "/properties/github/properties/public/properties/labels",
+                            "type": "array",
+                            "items": {
+                                "$id": "/properties/github/properties/public/properties/labels/items",
+                                "type": "string",
+                                "title": "The 0th Schema ",
+                                "default": "",
+                                "examples": [
+                                    "webhooks"
+                                ]
+                            }
+                        },
+                        "issue_state": {
+                            "$id": "/properties/github/properties/public/properties/issue_state",
+                            "type": "string",
+                            "title": "The Issue_state Schema ",
+                            "default": "",
+                            "examples": [
+                                "all"
+                            ]
+                        },
+                        "organizations": {
+                            "$id": "/properties/github/properties/public/properties/organizations",
+                            "type": "array",
+                            "items": {
+                                "$id": "/properties/github/properties/public/properties/organizations/items",
+                                "type": "object",
+                                "properties": {
+                                    "paypal": {
+                                        "$id": "/properties/github/properties/public/properties/organizations/items/properties/paypal",
+                                        "type": "array",
+                                        "items": {
+                                            "$id": "/properties/github/properties/public/properties/organizations/items/properties/paypal/items",
+                                            "type": "string",
+                                            "title": "The 0th Schema ",
+                                            "default": "",
+                                            "examples": [
+                                                "PayPal-REST-API-issues"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "stackoverflow": {
+            "$id": "/properties/stackoverflow",
+            "type": "object",
+            "properties": {
+                "api_key": {
+                    "$id": "/properties/stackoverflow/properties/api_key",
+                    "type": "string",
+                    "title": "The Api_key Schema ",
+                    "default": "",
+                    "examples": [
+                        "NA"
+                    ]
+                },
+                "api_url": {
+                    "$id": "/properties/stackoverflow/properties/api_url",
+                    "type": "string",
+                    "title": "The Api_url Schema ",
+                    "default": "",
+                    "examples": [
+                        "https://api.stackexchange.com/"
+                    ]
+                },
+                "order": {
+                    "$id": "/properties/stackoverflow/properties/order",
+                    "type": "string",
+                    "title": "The Order Schema ",
+                    "default": "",
+                    "examples": [
+                        "desc"
+                    ]
+                },
+                "sort": {
+                    "$id": "/properties/stackoverflow/properties/sort",
+                    "type": "string",
+                    "title": "The Sort Schema ",
+                    "default": "",
+                    "examples": [
+                        "activity"
+                    ]
+                },
+                "tag": {
+                    "$id": "/properties/stackoverflow/properties/tag",
+                    "type": "string",
+                    "title": "The Tag Schema ",
+                    "default": "",
+                    "examples": [
+                        "paypal"
+                    ]
+                },
+                "intitle": {
+                    "$id": "/properties/stackoverflow/properties/intitle",
+                    "type": "string",
+                    "title": "The Intitle Schema ",
+                    "default": "",
+                    "examples": [
+                        "webhooks"
+                    ]
+                },
+                "site": {
+                    "$id": "/properties/stackoverflow/properties/site",
+                    "type": "string",
+                    "title": "The Site Schema ",
+                    "default": "",
+                    "examples": [
+                        "stackoverflow"
+                    ]
+                },
+                "access_token": {
+                    "$id": "/properties/stackoverflow/properties/access_token",
+                    "type": "string",
+                    "title": "The Access_token Schema ",
+                    "default": "",
+                    "examples": [
+                        "Y"
+                    ]
+                },
+                "key": {
+                    "$id": "/properties/stackoverflow/properties/key",
+                    "type": "string",
+                    "title": "The Key Schema ",
+                    "default": "",
+                    "examples": [
+                        "Y"
+                    ]
+                }
+            }
+        },
+        "twitter": {
+            "$id": "/properties/twitter",
+            "type": "object",
+            "properties": {
+                "consumer_key": {
+                    "$id": "/properties/twitter/properties/consumer_key",
+                    "type": "string",
+                    "title": "The Consumer_key Schema ",
+                    "default": "",
+                    "examples": [
+                        "CK"
+                    ]
+                },
+                "consumer_secret": {
+                    "$id": "/properties/twitter/properties/consumer_secret",
+                    "type": "string",
+                    "title": "The Consumer_secret Schema ",
+                    "default": "",
+                    "examples": [
+                        "CS"
+                    ]
+                },
+                "access_token_key": {
+                    "$id": "/properties/twitter/properties/access_token_key",
+                    "type": "string",
+                    "title": "The Access_token_key Schema ",
+                    "default": "",
+                    "examples": [
+                        "AT"
+                    ]
+                },
+                "access_token_secret": {
+                    "$id": "/properties/twitter/properties/access_token_secret",
+                    "type": "string",
+                    "title": "The Access_token_secret Schema ",
+                    "default": "",
+                    "examples": [
+                        "ATS"
+                    ]
+                },
+                "default_user": {
+                    "$id": "/properties/twitter/properties/default_user",
+                    "type": "string",
+                    "title": "The Default_user Schema ",
+                    "default": "",
+                    "examples": [
+                        "paypaldev"
+                    ]
+                },
+                "default_tweet_count": {
+                    "$id": "/properties/twitter/properties/default_tweet_count",
+                    "type": "string",
+                    "title": "The Default_tweet_count Schema ",
+                    "default": "",
+                    "examples": [
+                        "50"
+                    ]
+                }
+            }
+        },
+        "admin_config": {
+            "$id": "/properties/admin_config",
+            "type": "object",
+            "properties": {
+                "slack": {
+                    "$id": "/properties/admin_config/properties/slack",
+                    "type": "object",
+                    "properties": {
+                        "slack_token_encrypted": {
+                            "$id": "/properties/admin_config/properties/slack/properties/slack_token_encrypted",
+                            "type": "string",
+                            "title": "The Slack_token_encrypted Schema ",
+                            "default": "",
+                            "examples": [
+                                "STE"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
