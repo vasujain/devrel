@@ -1,11 +1,12 @@
 module.exports = {
-    parseDetails: function(body, bot, message) {
+    parseDetails: function(bot, message, data) {
         console.log("*** Invoking Dilbert JSON Parse ... ***");
+        var comicMsg = ":turbo_slack: Random Dilbert: \n";
         bot.reply(message, {
             "attachments": [{
-                "fallback": cmdMsg,
+                "fallback": comicMsg,
                 "color": "#36A64F",
-                "title": cmdMsg,
+                "title": comicMsg,
                 "image_url": data.url
             }]
         });

@@ -79,9 +79,10 @@ controller.hears(['^tweet (.*) (.*)', '^tweet (.*)', '^tweet', '^t (.*) (.*)', '
     TwitterModel.twitterApiCallCustomUser(bot, message, tweetUser, tweetCount);
 });
 
-controller.hears(['^dilbert', '^comic'], ['direct_mention', 'mention', 'direct_message'], function(bot, message) {
+controller.hears(['^dilbert (.*)', '^dilbert', '^comic (.*)', '^comic'], ['direct_mention', 'mention', 'direct_message'], function(bot, message) {
     console.log("Dilbert !! ");
-    DilbertModel.getComic(bot, message);
+    var comicDate = message.match[1];
+    DilbertModel.getComic(bot, message, comicDate);
 });
 
 controller.hears(['^developer', '^architect'], ['direct_mention', 'mention', 'direct_message'], function(bot, message) {

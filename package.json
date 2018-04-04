@@ -1,6 +1,6 @@
 {
   "name": "DevRel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The DevRel Bot.",
   "main": "devrel.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "mongodb": "^1.4.39",
     "beepboop-botkit": "^1.1.1",
     "twitter": "^1.7.1",
-    "random-dilbert": "^1.1.0"
+    "random-dilbert": "^1.1.0",
+    "today-dilbert": "^1.1.0"
   }
 }
