@@ -34,5 +34,7 @@ DevRel Slack Bot is a Bot for Slack teams that they can configure and quickly ha
 5. `github issues`
 6. `dilbert` or `comics`
 
+![Bot Interaction](../img/bot.png)
+
 ## Support/Request new features
 For Support / Requesting new features [Create an Issue](https://github.com/vasujain/devrel/issues)  
